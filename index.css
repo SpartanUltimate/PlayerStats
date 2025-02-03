@@ -1,0 +1,133 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  font-size: 20px;
+  background-color: rgb(141, 141, 141);
+}
+#header {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10;
+  height: 90px;
+}
+#page-title {
+  color: goldenrod;
+  text-align: center;
+}
+#main-section {
+  margin-top: 140px;
+  height: 100%;
+  padding-top: 1px;
+}
+#table-container {
+  width: 70%;
+  margin: 0 auto;
+}
+#rank-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 24px;
+}
+#tableHeader > tr {
+  border: 4px solid black;
+  color: rgb(196, 196, 196);
+  background-color: rgb(80, 80, 80);
+}
+#tableHeader > tr > th {
+  padding: 5px 0px;
+}
+#rank-table > tbody > tr {
+  border-bottom: 1px solid rgb(104, 104, 104);
+  border-radius: 3px;
+
+  &:hover {
+    outline: 2px solid white;
+  }
+}
+#rank-table > tbody > tr > td:first-child {
+  text-align: center;
+  border-right: solid 2px black;
+  padding: 8px 0px;
+}
+#rank-table > tbody > tr > td:nth-child(2) {
+  padding-left: 10px;
+}
+#rank-table > tbody > tr > td:nth-child(8) {
+  padding-left: 15px;
+}
+
+#spw:hover {
+  cursor: pointer;
+  color: white;
+}
+#spg:hover {
+  cursor: pointer;
+  color: white;
+}
+#spa:hover {
+  cursor: pointer;
+  color: white;
+}
+#spt:hover {
+  cursor: pointer;
+  color: white;
+}
+#spl:hover {
+  cursor: pointer;
+  color: white;
+}
+#spr:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* COLORS */
+
+.Diamond {
+  background-color: rgb(39, 65, 184);
+  color: rgb(250, 250, 250);
+}
+.Platinum {
+  background-color: rgb(50, 193, 212);
+}
+.Gold {
+  background-color: rgb(194, 146, 25);
+}
+.Silver {
+  background-color: #c3c7cc;
+  /* font-weight: bold; */
+}
+.Bronze {
+  background-color: rgb(155, 87, 56);
+}
+.Iron {
+  background-color: rgb(179, 158, 158);
+}
+.Dirt {
+  background-color: rgb(207, 107, 49);
+}
+
+.white {
+  color: white;
+}
+
+@media (max-width: 1160px) {
+  #table-container {
+    width: 80%;
+  }
+}
+@media (max-width: 1000px) {
+  #table-container {
+    width: 90%;
+  }
+}
+@media (max-width: 910px) {
+  #table-container {
+    width: 100%;
+  }
+}
