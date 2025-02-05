@@ -1,6 +1,5 @@
 // paste array of objects containing data
 let data = [
-  { name: "Caedon Buhr", T: 14, A: 7, G: 10, W: 6, L: 12, Rating: 509 },
   { name: "Caleb Mok", T: 54, A: 13, G: 8, W: 19, L: 37, Rating: 417 },
   { name: "Charles Torpey", T: 7, A: 21, G: 8, W: 19, L: 13, Rating: 595 },
   {
@@ -21,7 +20,6 @@ let data = [
   { name: "Jakob Lail", T: 11, A: 27, G: 11, W: 15, L: 37, Rating: 570 },
   { name: "Jacob Linares", T: 27, A: 18, G: 40, W: 4, L: 20, Rating: 529 },
   { name: "Mark Blackburn", T: 5, A: 6, G: 23, W: 31, L: 9, Rating: 626 },
-  { name: "Michael Nawa", T: 31, A: 11, G: 24, W: 6, L: 3, Rating: 517 },
   { name: "Ryan Novinsky", T: 6, A: 28, G: 15, W: 27, L: 16, Rating: 636 },
   { name: "Rafael Antipuesto", T: 19, A: 3, G: 1, W: 6, L: 3, Rating: 491 },
   { name: "Roman Leigh", T: 25, A: 13, G: 31, W: 7, L: 28, Rating: 519 },
@@ -89,12 +87,18 @@ function sortData(attr) {
 }
 
 function getRank(rating) {
-  if (rating > 750) return "Diamond";
-  if (rating > 650) return "Platinum";
-  if (rating > 550) return "Gold";
-  if (rating > 450) return "Silver";
-  if (rating > 350) return "Bronze";
-  if (rating > 250) return "Iron";
+  if (rating > 750) return "Diamond I";
+  if (rating > 700) return "Diamond II";
+  if (rating > 650) return "Platinum I";
+  if (rating > 600) return "Platinum II";
+  if (rating > 550) return "Gold I";
+  if (rating > 500) return "Gold II";
+  if (rating > 450) return "Silver I";
+  if (rating > 400) return "Silver II";
+  if (rating > 350) return "Bronze I";
+  if (rating > 300) return "Bronze II";
+  if (rating > 250) return "Iron I";
+  if (rating > 200) return "Iron II";
   return "Dirt";
 }
 
