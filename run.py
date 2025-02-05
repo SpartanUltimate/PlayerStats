@@ -2,7 +2,6 @@ import json
 import math
 
 names = {
-  'Caedon' : 'Caedon Buhr',
   'Caleb' : 'Caleb Mok',
   'Charles' : 'Charles Torpey',
   'Chris' : 'Christopher Pantaleon',
@@ -15,7 +14,6 @@ names = {
   'Lail' : 'Jakob Lail',
   'Linares' : 'Jacob Linares',
   'Mark' : 'Mark Blackburn',
-  'Michael' : 'Michael Nawa',
   'Novinsky' : 'Ryan Novinsky',
   'Raf' : 'Rafael Antipuesto',
   'Roman' : 'Roman Leigh',
