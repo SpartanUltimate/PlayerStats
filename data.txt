@@ -1,22 +1,22 @@
-Caleb	12	11	6	5	7
-Charles	3	0	2	1	3
-Chris	10	5	5	4	5
-Dan	4	4	8	5	5
-Edwin	8	1	2	2	4
-Isaac	11	2	3	2	7
-Jake	8	1	4	3	4
-Joe	8	10	6	5	7
-Kevin	2	1	9	5	0
-Krone	5	2	4	2	5
-Lail	8	12	6	8	2
-Linares	1	5	21	11	0
-Mark	1	1	0	2	2
-Novinsky	9	9	7	5	5
-Raf	0	0	0	0	0
-Roman	0	0	0	0	0
-Ryan-Ph	6	22	6	9	2
-Sakhin	4	4	5	3	8
-Tanner	11	2	3	1	6
-Ted	0	0	0	0	0
-Vincent	14	9	5	5	6
-X	0	0	0	0	0
+Caleb	12	11	6	5	7 3
+Charles	3	0	2	1	3 0
+Chris	10	5	5	4	5 0
+Dan	4	4	8	5	5 0
+Edwin	8	1	2	2	4 0
+Isaac	11	2	3	2	7 1
+Jake	8	1	4	3	4 1
+Joe	8	10	6	5	7 0
+Kevin	2	1	9	5	0 0
+Krone	5	2	4	2	5 0
+Lail	8	12	6	8	2 1
+Linares	1	5	21	11	0 2
+Mark	1	1	0	2	2 0
+Novinsky	9	9	7	5	5 1
+Raf	0	0	0	0	0 0
+Roman	0	0	0	0	0 0
+Ryan-Ph	6	22	6	9	2 1
+Sakhin	4	4	5	3	8 1
+Tanner	11	2	3	1	6 2
+Ted	0	0	0	0	0 0
+Vincent	14	9	5	5	6 0
+X	0	0	0	0	0 0

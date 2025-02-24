@@ -39,6 +39,7 @@ for line in file:
     'G': int(arr[3]),
     'W': int(arr[4]),
     'L': int(arr[5]),
+    'D': int(arr[6]),
   }
   processed_data.append(obj)
 file.close()
@@ -57,8 +58,10 @@ def calculate_rating(obj):
     return math.floor(2 * int(a))
   def turn(t):
     return math.floor(-4 * int(t))
+  def defense(d):
+    return math.floor(2 * int(d))
   
-  result = win(obj['W']) + loss(obj['L']) + goal(obj['G']) + assist(obj['A']) + turn(obj['T'])
+  result = win(obj['W']) + loss(obj['L']) + goal(obj['G']) + assist(obj['A']) + turn(obj['T']) + defense(obj['D'])
   obj['Rating'] = base_rating + result
 
 for i in processed_data:
