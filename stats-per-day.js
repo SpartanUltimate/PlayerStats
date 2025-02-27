@@ -166,9 +166,7 @@ createRows();
 document.getElementById("selected-date").addEventListener("change", createRows);
 
 function createRows() {
-  console.log("creating rows!!");
   let date = document.getElementById("selected-date").value;
-  console.log(date);
   let pd_arr = pd_data[date];
   let ad_arr = ad_data[date];
   document.getElementById("tbody-start").innerHTML = "";
