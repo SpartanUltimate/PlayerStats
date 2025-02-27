@@ -62,6 +62,10 @@ let data = [
   { name: "Vincent Cook", T: 24, A: 11, G: 7, W: 5, L: 11, D: 0, Rating: 419 },
   { name: "Xavier Herrera", T: 9, A: 1, G: 0, W: 0, L: 3, D: 5, Rating: 370 },
 ];
+
+document.getElementById("lb-nav").style.backgroundColor = "goldenrod";
+document.getElementById("lb-nav-a").style.color = "black";
+
 // get <tbody> where rows need to be generated and appended
 let tbody = document.getElementById("tbody-start");
 

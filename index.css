@@ -20,7 +20,7 @@ body {
   text-align: center;
 }
 #main-section {
-  margin-top: 115px;
+  margin-top: 95px;
   height: 100%;
   padding-top: 1px;
 }
@@ -90,6 +90,67 @@ body {
   color: white;
 }
 
+.navbar {
+  width: fit-content;
+  list-style: none;
+  margin: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 80);
+  margin-bottom: 10px;
+}
+.navbar > li {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.navbar > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+#pd-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#pd-header {
+  border: 4px solid black;
+  color: rgb(196, 196, 196);
+  background-color: rgb(80, 80, 80);
+  font-size: 24px;
+}
+#pd-header > tr > th {
+  padding: 5px 0px;
+}
+#pd-table > thead > tr:nth-child(2) > th {
+  width: 45px;
+}
+#pd-table > tbody {
+  background-color: #a3a3a3;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+}
+#pd-table > tbody > tr {
+  border-bottom: solid 1px black;
+}
+#pd-table > tbody > tr > td:nth-child(1) {
+  padding: 5px 0px;
+  border-right: solid 2px black;
+}
+#selected-date,
+#selected-date > option {
+  background-color: rgb(80, 80, 80);
+  color: rgb(196, 196, 196);
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+#selected-date {
+  border: solid 2px rgb(196, 196, 196);
+}
+
 /* COLORS */
 
 .Diamond {
@@ -133,5 +194,6 @@ body {
 @media (max-width: 910px) {
   #table-container {
     width: 100%;
+    min-width: 800px;
   }
 }

@@ -1,5 +1,6 @@
 import json
 import math
+from os import listdir
 
 names = {
   'Caleb' : 'Caleb Mok',
@@ -25,6 +26,10 @@ names = {
   'Vincent' : 'Vincent Cook',
   'X' : 'Xavier Herrera',
 }
+
+##########################
+# leaderboard processing #
+##########################
 
 processed_data = []
 
@@ -72,6 +77,63 @@ out.write(json.dumps(processed_data))
 out.close()
 
 print('data processing done!')
-print(json.dumps(processed_data))
 
 
+################################
+#   stats per day processing   #
+################################
+per_day_files = listdir(".\\per-day")
+per_day_data = {}
+for filename in per_day_files:
+  per_day_data[filename] = []
+  file = open(".\\per-day\\{}".format(filename), 'r')
+  
+  for line in file:
+    arr = line.strip().replace('\t', ' ').split(' ')
+    obj = {
+      'name': names[arr[0]],
+      'T': int(arr[1]),
+      'A': int(arr[2]),
+      'G': int(arr[3]),
+      'W': int(arr[4]),
+      'L': int(arr[5]),
+      'D': int(arr[6]),
+    }
+    per_day_data[filename].append(obj)
+  file.close()
+
+pd_out = open('day.txt', 'w')
+pd_out.write(json.dumps(per_day_data))
+pd_out.close()
+
+print("per day processing done!")
+
+
+################################
+# aggregate per day processing #
+################################
+aggregate_files = listdir(".\\aggregate-day")
+aggregate_data = {}
+for filename in aggregate_files:
+  aggregate_data[filename] = []
+  file = open(".\\aggregate-day\\{}".format(filename), 'r')
+  
+  for line in file:
+    arr = line.strip().replace('\t', ' ').split(' ')
+    obj = {
+      'name': names[arr[0]],
+      'T': int(arr[1]),
+      'A': int(arr[2]),
+      'G': int(arr[3]),
+      'W': int(arr[4]),
+      'L': int(arr[5]),
+      'D': int(arr[6]),
+    }
+    aggregate_data[filename].append(obj)
+  file.close()
+
+ad_out = open('aggregate.txt', 'w')
+ad_out.write(json.dumps(aggregate_data))
+ad_out.close()
+
+print("aggregate processing done!")

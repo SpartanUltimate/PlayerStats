@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spartan Rankings</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="page-title">SPARTAN RANKINGS</h1>
+    </div>
+    <div id="main-section">
+      <div id="table-container">
+        <ul class="navbar">
+          <li id="lb-nav">
+            <a id="lb-nav-a" href="index.html">Leaderboard</a>
+          </li>
+          <li id="spd-nav">
+            <a id="spd-nav-a" href="#">Stats Per Day</a>
+          </li>
+          <!-- <li><a href="#">Match History</a></li>
+          <li><a href="#">Player Matrix</a></li> -->
+        </ul>
+
+        <table id="pd-table">
+          <thead id="pd-header">
+            <tr>
+              <th rowspan="2" style="width: 30%; border-right: solid 2px black">
+                Name
+              </th>
+              <th colspan="6" style="border-right: solid 2px black">
+                <select id="selected-date"></select>
+                <!-- <span id="current-date">Date</span> -->
+              </th>
+              <th colspan="6">Till date</th>
+            </tr>
+            <tr>
+              <th>W</th>
+              <th>D</th>
+              <th>A</th>
+              <th>G</th>
+              <th>T</th>
+              <th style="border-right: solid 2px black">L</th>
+              <th>W</th>
+              <th>D</th>
+              <th>A</th>
+              <th>G</th>
+              <th>T</th>
+              <th>L</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-start" style="text-align: left"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="stats-per-day.js"></script>
+  </body>
+</html>
