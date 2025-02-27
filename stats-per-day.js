@@ -176,14 +176,14 @@ function createRows() {
       <td style="padding-left: 10px">${pd_arr[i]["name"]}</td>
       <td style="text-align: center">${pd_arr[i]["W"]}</td>
       <td style="text-align: center">${pd_arr[i]["D"]}</td>
-      <td style="text-align: center">${pd_arr[i]["A"]}</td>
       <td style="text-align: center">${pd_arr[i]["G"]}</td>
+      <td style="text-align: center">${pd_arr[i]["A"]}</td>
       <td style="text-align: center">${pd_arr[i]["T"]}</td>
       <td style="text-align: center; border-right: solid 2px black">${pd_arr[i]["L"]}</td>
       <td style="text-align: center">${ad_arr[i]["W"]}</td>
       <td style="text-align: center">${ad_arr[i]["D"]}</td>
-      <td style="text-align: center">${ad_arr[i]["A"]}</td>
       <td style="text-align: center">${ad_arr[i]["G"]}</td>
+      <td style="text-align: center">${ad_arr[i]["A"]}</td>
       <td style="text-align: center">${ad_arr[i]["T"]}</td>
       <td style="text-align: center">${ad_arr[i]["L"]}</td>
       `;
