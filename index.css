@@ -197,3 +197,9 @@ body {
     min-width: 800px;
   }
 }
+@media (max-width: 80px) {
+  #table-container {
+    width: 100%;
+    min-width: 700px;
+  }
+}
