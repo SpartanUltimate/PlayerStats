@@ -7,7 +7,7 @@ names = {
   'Charles' : 'Charles Torpey',
   'Chris' : 'Christopher Pantaleon',
   'Dan' : 'Dan Thompson',
-  'Edwin' : 'Edwin Li',
+  'Edwin' : 'Edwin Lu',
   'Isaac' : 'Isaac Thongthap',
   'Jake' : 'Jake Dapiran',
   'Joe' : 'Joseph Faso',
