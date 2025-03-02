@@ -161,6 +161,10 @@ body {
   border-bottom: solid 2px black;
 }
 
+td[rowspan] {
+  border-bottom: solid 2px black;
+}
+
 /* COLORS */
 
 .matchwin {
