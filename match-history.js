@@ -367,8 +367,8 @@ function createRows() {
         <td class='${team1class}' style='text-align:center'>${team1[player1].goals}</td>`;
         if (i == 0) {
           content += `
-          <td class='${team1class}' rowspan='3' style='text-align:center; border-right: solid 2px black'>${mh_arr[games][game]["team1_score"]}</td>
-          <td class='${team2class}' rowspan='3' style='text-align:center'>${mh_arr[games][game]["team2_score"]}</td>
+          <td class='${team1class}' rowspan='3' style='text-align:center; border-right: solid 2px black'><div>${mh_arr[games][game]["team1_score"]}</div></td>
+          <td class='${team2class}' rowspan='3' style='text-align:center'></div>${mh_arr[games][game]["team2_score"]}</div></td>
           `;
         }
         content += `

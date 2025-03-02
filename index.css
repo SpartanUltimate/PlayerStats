@@ -212,7 +212,7 @@ body {
 @media (max-width: 910px) {
   #table-container {
     width: 100%;
-    min-width: 750px;
+    min-width: 800px;
   }
 }
 @media (max-width: 800px) {
