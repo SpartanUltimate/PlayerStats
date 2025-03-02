@@ -105,16 +105,21 @@ body {
   border-radius: 10px;
   margin-right: 20px;
 }
+.navbar > li:nth-child(3) {
+  margin-right: 0px;
+}
 .navbar > li > a {
   color: white;
   text-decoration: none;
 }
 
-#pd-table {
+#pd-table,
+#mh-table {
   width: 100%;
   border-collapse: collapse;
 }
-#pd-header {
+#pd-header,
+#mh-header {
   border: 4px solid black;
   color: rgb(196, 196, 196);
   background-color: rgb(80, 80, 80);
@@ -150,8 +155,20 @@ body {
 #selected-date {
   border: solid 2px rgb(196, 196, 196);
 }
+#mh-table > tbody {
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+}
 
 /* COLORS */
+
+.matchwin {
+  background-color: #7b9fb6;
+}
+.matchloss {
+  /* background-color: #a3a3a3; */
+  background-color: #b77979;
+}
 
 .Diamond {
   background-color: rgb(39, 65, 184);

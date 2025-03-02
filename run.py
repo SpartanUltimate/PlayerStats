@@ -30,7 +30,6 @@ names = {
 ##########################
 # leaderboard processing #
 ##########################
-
 processed_data = []
 
 file = open('data.txt', 'r')
@@ -137,3 +136,34 @@ ad_out.write(json.dumps(aggregate_data))
 ad_out.close()
 
 print("aggregate processing done!")
+
+
+################################
+#   match history processing   #
+################################
+mh_files = listdir(".\\history")
+mh_data = {}
+for filename in mh_files:
+  file = open(".\\history\\{}".format(filename), 'r')
+  mh_data[filename] = json.loads(file.read())
+  file.close()
+
+for date in mh_data:
+  for games in mh_data[date]:
+    for game in mh_data[date][games]:
+      team1 = game["team1"]
+      team2 = game["team2"]
+      team1_score = 0
+      team2_score = 0
+      for stats in team1.values():
+        team1_score += stats['goals']
+      for stats in team2.values():
+        team2_score += stats['goals']      
+      game["team1_score"] = team1_score
+      game["team2_score"] = team2_score
+
+mh_out = open('history.txt', 'w')
+mh_out.write(json.dumps(mh_data))
+mh_out.close()
+
+print("match history processing done!")

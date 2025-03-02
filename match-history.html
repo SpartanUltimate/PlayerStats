@@ -17,41 +17,32 @@
             <a id="lb-nav-a" href="index.html">Leaderboard</a>
           </li>
           <li id="spd-nav">
-            <a id="spd-nav-a" href="#">Stats Per Day</a>
+            <a id="spd-nav-a" href="stats-per-day.html">Stats Per Day</a>
           </li>
-          <li><a href="match-history.html">Match History</a></li>
+          <li id="mh-nav"><a id="mh-nav-a" href="#">Match History</a></li>
         </ul>
+        <select id="selected-date"></select>
 
-        <table id="pd-table">
-          <thead id="pd-header">
+        <table id="mh-table" style="margin-top: 5px">
+          <thead id="mh-header">
             <tr>
-              <th rowspan="2" style="width: 30%; border-right: solid 2px black">
-                Name
-              </th>
-              <th colspan="6" style="border-right: solid 2px black">
-                <select id="selected-date"></select>
-              </th>
-              <th colspan="6">Till date</th>
-            </tr>
-            <tr>
-              <th>W</th>
+              <th style="width: 30%">Name</th>
+              <th>T</th>
               <th>D</th>
+              <th>A</th>
+              <th>G</th>
+              <th colspan="2">Score</th>
               <th>G</th>
               <th>A</th>
-              <th>T</th>
-              <th style="border-right: solid 2px black">L</th>
-              <th>W</th>
               <th>D</th>
-              <th>G</th>
-              <th>A</th>
               <th>T</th>
-              <th>L</th>
+              <th style="width: 30%">Name</th>
             </tr>
           </thead>
           <tbody id="tbody-start" style="text-align: left"></tbody>
         </table>
       </div>
     </div>
-    <script src="stats-per-day.js"></script>
+    <script src="match-history.js"></script>
   </body>
 </html>
