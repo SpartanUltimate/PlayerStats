@@ -51,19 +51,19 @@ file.close()
 def calculate_rating(obj):
   base_rating = 500
   def win(w):
-    res = 114 * math.log2(0.5 * (int(w) + 2))
+    res = 20 * w
     return math.floor(res)
   def loss(l):
-    res = -93 * math.log2(0.4 * (int(l) + 2.5))
+    res = -20 * l
     return math.floor(res)
   def goal(g):
-    return math.floor(2 * int(g))
+    return math.floor(4 * int(g))
   def assist(a):
-    return math.floor(2 * int(a))
+    return math.floor(4 * int(a))
   def turn(t):
-    return math.floor(-4 * int(t))
+    return math.floor(-6 * int(t))
   def defense(d):
-    return math.floor(2 * int(d))
+    return math.floor(4 * int(d))
   
   result = win(obj['W']) + loss(obj['L']) + goal(obj['G']) + assist(obj['A']) + turn(obj['T']) + defense(obj['D'])
   obj['Rating'] = base_rating + result

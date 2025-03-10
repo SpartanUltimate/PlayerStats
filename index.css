@@ -144,6 +144,7 @@ body {
   padding: 5px 0px;
   border-right: solid 2px black;
 }
+#current-split,
 #selected-date,
 #selected-date > option {
   background-color: rgb(80, 80, 80);
@@ -152,8 +153,13 @@ body {
   border-radius: 5px;
   padding: 0px 10px;
 }
-#selected-date {
+#selected-date,
+#current-split {
   border: solid 2px rgb(196, 196, 196);
+}
+#current-split {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 #mh-table > tbody {
   border-left: solid 2px black;

@@ -1,8 +1,52 @@
-let last_updated = "Mar 6, 2025 9:24pm"; // <----- UPDATE THIS DATE WHENEVER YOU UPDATE SCORES!!
+let last_updated = "Mar 9, 2025 9:02pm"; // <----- UPDATE THIS DATE WHENEVER YOU UPDATE SCORES!!
 document.getElementById("lu-date").innerHTML = last_updated;
 
 // paste array of objects containing data
 let data = [
+  { name: "Caleb Mok", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Charles Torpey", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  {
+    name: "Christopher Pantaleon",
+    T: 0,
+    A: 0,
+    G: 0,
+    W: 0,
+    L: 0,
+    D: 0,
+    Rating: 500,
+  },
+  { name: "Dan Thompson", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Edwin Lu", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Isaac Thongthap", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Jake Dapiran", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Joseph Faso", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Kevin Camelin", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Joshua Krone", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Jakob Lail", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Jacob Linares", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Mark Blackburn", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Ryan Novinsky", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  {
+    name: "Rafael Antipuesto",
+    T: 0,
+    A: 0,
+    G: 0,
+    W: 0,
+    L: 0,
+    D: 0,
+    Rating: 500,
+  },
+  { name: "Roman Leigh", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Ryan Phi-Nguyen", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Sakhin Selvamani", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Tanner Yue", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Tadeas Horn", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Vincent Cook", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+  { name: "Xavier Herrera", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0, Rating: 500 },
+];
+
+let split1_last_updated = "Mar 6, 2025 9:24pm";
+let split1_data = [
   { name: "Caleb Mok", T: 28, A: 19, G: 17, W: 13, L: 15, D: 8, Rating: 545 },
   { name: "Charles Torpey", T: 11, A: 6, G: 9, W: 4, L: 7, D: 5, Rating: 496 },
   {
@@ -119,6 +163,8 @@ createEventListener("spt", "T");
 createEventListener("spl", "L");
 createEventListener("spr", "Rating");
 
+document.getElementById("current-split").addEventListener("change", createRows);
+
 function createEventListener(htmlId, attr) {
   document.getElementById(htmlId).addEventListener("click", () => {
     sortData(attr);
@@ -142,21 +188,25 @@ function setInactive(attr) {
 
 // sort entry by attribute
 function sortData(attr) {
-  data.sort((first, second) => {
-    let a = undefined;
-    let b = undefined;
-    if (attr === "T" || attr === "L") {
-      a = second;
-      b = first;
-    } else {
-      a = first;
-      b = second;
-    }
+  doWork(split1_data);
+  doWork(data);
+  function doWork(data) {
+    data.sort((first, second) => {
+      let a = undefined;
+      let b = undefined;
+      if (attr === "T" || attr === "L") {
+        a = second;
+        b = first;
+      } else {
+        a = first;
+        b = second;
+      }
 
-    if (a[attr] > b[attr]) return -1;
-    if (a[attr] === b[attr]) return 0;
-    if (a[attr] < b[attr]) return 1;
-  });
+      if (a[attr] > b[attr]) return -1;
+      if (a[attr] === b[attr]) return 0;
+      if (a[attr] < b[attr]) return 1;
+    });
+  }
 }
 
 function getRank(rating) {
@@ -186,28 +236,39 @@ function getRank(rating) {
 }
 
 function createRows() {
-  for (let i = 0; i < data.length; i++) {
-    let row = document.createElement("tr");
-    let obj = data[i];
+  let split = document.getElementById("current-split").value;
+  tbody.innerHTML = ""; // clear table body
+  if (split === "split1") {
+    doWork(split1_data);
+    document.getElementById("lu-date").innerHTML = split1_last_updated;
+  } else if (split === "split2") {
+    doWork(data);
+    document.getElementById("lu-date").innerHTML = last_updated;
+  }
+  function doWork(data) {
+    for (let i = 0; i < data.length; i++) {
+      let row = document.createElement("tr");
+      let obj = data[i];
 
-    let content = `
-    <td>${i + 1}</td>
-    <td>${obj.name}</td>
-    <td>${obj.W}</td>
-    <td>${obj.D}</td>
-    <td>${obj.G}</td>
-    <td>${obj.A}</td>
-    <td>${obj.T}</td>
-    <td>${obj.L}</td>
-    <td>${obj.Rating}</td>
-    <td>${getRank(obj.Rating).toUpperCase()}</td>
-  `;
+      let content = `
+      <td>${i + 1}</td>
+      <td>${obj.name}</td>
+      <td>${obj.W}</td>
+      <td>${obj.D}</td>
+      <td>${obj.G}</td>
+      <td>${obj.A}</td>
+      <td>${obj.T}</td>
+      <td>${obj.L}</td>
+      <td>${obj.Rating}</td>
+      <td>${getRank(obj.Rating).toUpperCase()}</td>
+    `;
 
-    if (i === 6 || i === 13 || i === data.length - 1)
-      row.style.borderBottom = "4px solid black";
+      if (i === 6 || i === 13 || i === data.length - 1)
+        row.style.borderBottom = "4px solid black";
 
-    row.className = getRank(obj.Rating);
-    row.innerHTML = content;
-    tbody.appendChild(row);
+      row.className = getRank(obj.Rating);
+      row.innerHTML = content;
+      tbody.appendChild(row);
+    }
   }
 }
