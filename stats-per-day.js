@@ -309,6 +309,40 @@ createRows();
 
 document.getElementById("selected-date").addEventListener("change", createRows);
 
+function oldRating(pd, ad) {
+  let pre = {};
+  pre["W"] = ad.W - pd.W;
+  pre["L"] = ad.L - pd.L;
+  pre["T"] = ad.T - pd.T;
+  pre["A"] = ad.A - pd.A;
+  pre["G"] = ad.G - pd.G;
+  pre["D"] = ad.D - pd.D;
+
+  let prev = oldAlgo(pre);
+  let curr = oldAlgo(ad);
+  return curr - prev;
+
+  function oldAlgo(obj) {
+    let w = (x) => Math.floor(114 * Math.log2(0.5 * (x + 2)));
+    let l = (x) => Math.floor(-93 * Math.log2(0.4 * (x + 2.5)));
+    let d = (x) => x * 2;
+    let a = (x) => x * 2;
+    let g = (x) => x * 2;
+    let t = (x) => x * -4;
+    return w(obj.W) + l(obj.L) + d(obj.D) + a(obj.A) + g(obj.G) + t(obj.T);
+  }
+}
+
+function newRating(obj) {
+  let w = (x) => x * 20;
+  let l = (x) => x * -20;
+  let d = (x) => x * 4;
+  let a = (x) => x * 4;
+  let g = (x) => x * 4;
+  let t = (x) => x * -6;
+  return w(obj.W) + l(obj.L) + d(obj.D) + a(obj.A) + g(obj.G) + t(obj.T);
+}
+
 function createRows() {
   let date = document.getElementById("selected-date").value;
   let pd_arr = pd_data[date];
@@ -316,6 +350,11 @@ function createRows() {
   document.getElementById("tbody-start").innerHTML = "";
   for (let i in pd_arr) {
     let row = document.createElement("tr");
+
+    let rating = undefined;
+    if (date > "2025-3-6") rating = newRating(pd_arr[i]);
+    else rating = oldRating(pd_arr[i], ad_arr[i]);
+
     let content = `
       <td style="padding-left: 10px">${pd_arr[i]["name"]}</td>
       <td style="text-align: center">${pd_arr[i]["W"]}</td>
@@ -323,7 +362,10 @@ function createRows() {
       <td style="text-align: center">${pd_arr[i]["G"]}</td>
       <td style="text-align: center">${pd_arr[i]["A"]}</td>
       <td style="text-align: center">${pd_arr[i]["T"]}</td>
-      <td style="text-align: center; border-right: solid 2px black">${pd_arr[i]["L"]}</td>
+      <td style="text-align: center">${pd_arr[i]["L"]}</td>
+      <td style="text-align: center; border-right: solid 2px black; font-weight: bold; color: ${
+        Number(rating) < 0 ? "#D2042D" : "green"
+      }">${rating < 0 ? rating : "+" + rating}</td>
       <td style="text-align: center">${ad_arr[i]["W"]}</td>
       <td style="text-align: center">${ad_arr[i]["D"]}</td>
       <td style="text-align: center">${ad_arr[i]["G"]}</td>
