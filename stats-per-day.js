@@ -123,6 +123,30 @@ let pd_data = {
     { name: "Vincent Cook", T: 6, A: 3, G: 3, W: 2, L: 1, D: 0 },
     { name: "Xavier Herrera", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
   ],
+  "2025-3-10": [
+    { name: "Caleb Mok", T: 4, A: 1, G: 8, W: 3, L: 2, D: 0 },
+    { name: "Charles Torpey", T: 2, A: 0, G: 3, W: 1, L: 2, D: 3 },
+    { name: "Christopher Pantaleon", T: 3, A: 2, G: 1, W: 1, L: 2, D: 0 },
+    { name: "Dan Thompson", T: 0, A: 0, G: 3, W: 1, L: 4, D: 0 },
+    { name: "Edwin Lu", T: 3, A: 1, G: 1, W: 0, L: 3, D: 0 },
+    { name: "Isaac Thongthap", T: 2, A: 3, G: 2, W: 4, L: 0, D: 0 },
+    { name: "Jake Dapiran", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Joseph Faso", T: 3, A: 3, G: 1, W: 3, L: 3, D: 0 },
+    { name: "Kevin Camelin", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Joshua Krone", T: 1, A: 4, G: 3, W: 3, L: 2, D: 0 },
+    { name: "Jakob Lail", T: 5, A: 3, G: 2, W: 2, L: 3, D: 0 },
+    { name: "Jacob Linares", T: 1, A: 1, G: 7, W: 3, L: 1, D: 0 },
+    { name: "Mark Blackburn", T: 0, A: 2, G: 4, W: 2, L: 1, D: 0 },
+    { name: "Ryan Novinsky", T: 7, A: 5, G: 1, W: 3, L: 1, D: 0 },
+    { name: "Rafael Antipuesto", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Roman Leigh", T: 4, A: 2, G: 4, W: 2, L: 1, D: 0 },
+    { name: "Ryan Phi-Nguyen", T: 2, A: 10, G: 3, W: 4, L: 1, D: 0 },
+    { name: "Sakhin Selvamani", T: 2, A: 2, G: 1, W: 0, L: 5, D: 0 },
+    { name: "Tanner Yue", T: 2, A: 1, G: 2, W: 1, L: 2, D: 2 },
+    { name: "Tadeas Horn", T: 5, A: 8, G: 3, W: 3, L: 3, D: 1 },
+    { name: "Vincent Cook", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Xavier Herrera", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+  ],
   "2025-3-6": [
     { name: "Caleb Mok", T: 4, A: 1, G: 1, W: 1, L: 2, D: 1 },
     { name: "Charles Torpey", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
@@ -271,6 +295,30 @@ let ad_data = {
     { name: "Vincent Cook", T: 39, A: 15, G: 10, W: 8, L: 13, D: 0 },
     { name: "Xavier Herrera", T: 18, A: 7, G: 2, W: 3, L: 4, D: 6 },
   ],
+  "2025-3-10": [
+    { name: "Caleb Mok", T: 4, A: 1, G: 8, W: 3, L: 2, D: 0 },
+    { name: "Charles Torpey", T: 2, A: 0, G: 3, W: 1, L: 2, D: 3 },
+    { name: "Christopher Pantaleon", T: 3, A: 2, G: 1, W: 1, L: 2, D: 0 },
+    { name: "Dan Thompson", T: 0, A: 0, G: 3, W: 1, L: 4, D: 0 },
+    { name: "Edwin Lu", T: 3, A: 1, G: 1, W: 0, L: 3, D: 0 },
+    { name: "Isaac Thongthap", T: 2, A: 3, G: 2, W: 4, L: 0, D: 0 },
+    { name: "Jake Dapiran", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Joseph Faso", T: 3, A: 3, G: 1, W: 3, L: 3, D: 0 },
+    { name: "Kevin Camelin", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Joshua Krone", T: 1, A: 4, G: 3, W: 3, L: 2, D: 0 },
+    { name: "Jakob Lail", T: 5, A: 3, G: 2, W: 2, L: 3, D: 0 },
+    { name: "Jacob Linares", T: 1, A: 1, G: 7, W: 3, L: 1, D: 0 },
+    { name: "Mark Blackburn", T: 0, A: 2, G: 4, W: 2, L: 1, D: 0 },
+    { name: "Ryan Novinsky", T: 7, A: 5, G: 1, W: 3, L: 1, D: 0 },
+    { name: "Rafael Antipuesto", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Roman Leigh", T: 4, A: 2, G: 4, W: 2, L: 1, D: 0 },
+    { name: "Ryan Phi-Nguyen", T: 2, A: 10, G: 3, W: 4, L: 1, D: 0 },
+    { name: "Sakhin Selvamani", T: 2, A: 2, G: 1, W: 0, L: 5, D: 0 },
+    { name: "Tanner Yue", T: 2, A: 1, G: 2, W: 1, L: 2, D: 2 },
+    { name: "Tadeas Horn", T: 5, A: 8, G: 3, W: 3, L: 3, D: 1 },
+    { name: "Vincent Cook", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+    { name: "Xavier Herrera", T: 0, A: 0, G: 0, W: 0, L: 0, D: 0 },
+  ],
   "2025-3-6": [
     { name: "Caleb Mok", T: 28, A: 19, G: 17, W: 13, L: 15, D: 8 },
     { name: "Charles Torpey", T: 11, A: 6, G: 9, W: 4, L: 7, D: 5 },
@@ -298,7 +346,7 @@ let ad_data = {
 };
 
 let select_tag = document.getElementById("selected-date");
-for (let date of Object.keys(pd_data).reverse()) {
+for (let date of Object.keys(pd_data).sort(sortDates).reverse()) {
   let opt = document.createElement("option");
   opt.value = date;
   opt.innerHTML = date;
@@ -308,6 +356,19 @@ for (let date of Object.keys(pd_data).reverse()) {
 createRows();
 
 document.getElementById("selected-date").addEventListener("change", createRows);
+
+function sortDates(date1, date2) {
+  console.log(date1, date2);
+  let d1 = date1.split("-").map((el) => Number(el));
+  let d2 = date2.split("-").map((el) => Number(el));
+  if (d1[0] < d2[0]) return -1;
+  else if (d1[0] > d2[0]) return 1;
+  else if (d1[1] < d2[1]) return -1;
+  else if (d1[1] > d2[1]) return 1;
+  else if (d1[2] < d2[2]) return -1;
+  else if (d1[2] > d2[2]) return 1;
+  else return 0;
+}
 
 function oldRating(pd, ad) {
   let pre = {};
@@ -352,7 +413,7 @@ function createRows() {
     let row = document.createElement("tr");
 
     let rating = undefined;
-    if (date > "2025-3-6") rating = newRating(pd_arr[i]);
+    if (sortDates(date, "2025-3-6") > 0) rating = newRating(pd_arr[i]);
     else rating = oldRating(pd_arr[i], ad_arr[i]);
 
     let content = `

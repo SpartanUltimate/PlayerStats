@@ -294,6 +294,188 @@ mh_data = {
       },
     ],
   },
+  "2025-3-10": {
+    0: [
+      {
+        team1: {
+          Charles: { turns: 2, assists: 0, goals: 1, defense: 1 },
+          Lail: { turns: 0, assists: 2, goals: 0, defense: 0 },
+          Roman: { turns: 3, assists: 0, goals: 1, defense: 0 },
+        },
+        team2: {
+          Novinsky: { turns: 2, assists: 3, goals: 0, defense: 0 },
+          Linares: { turns: 0, assists: 0, goals: 3, defense: 0 },
+          Isaac: { turns: 1, assists: 0, goals: 0, defense: 0 },
+        },
+        team1_score: 2,
+        team2_score: 3,
+      },
+      {
+        team1: {
+          Caleb: { turns: 0, assists: 0, goals: 1, defense: 0 },
+          Ted: { turns: 3, assists: 0, goals: 0, defense: 0 },
+          Krone: { turns: 0, assists: 1, goals: 0, defense: 0 },
+        },
+        team2: {
+          Joe: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Dan: { turns: 0, assists: 0, goals: 3, defense: 0 },
+          "Ryan-Ph": { turns: 1, assists: 3, goals: 0, defense: 0 },
+        },
+        team1_score: 1,
+        team2_score: 3,
+      },
+    ],
+    1: [
+      {
+        team1: {
+          Mark: { turns: 0, assists: 1, goals: 2, defense: 0 },
+          "Ryan-Ph": { turns: 0, assists: 2, goals: 1, defense: 0 },
+          Lail: { turns: 0, assists: 0, goals: 0, defense: 0 },
+        },
+        team2: {
+          Dan: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Ted: { turns: 1, assists: 1, goals: 1, defense: 1 },
+          Edwin: { turns: 1, assists: 0, goals: 1, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 2,
+      },
+      {
+        team1: {
+          Caleb: { turns: 1, assists: 1, goals: 2, defense: 0 },
+          Tanner: { turns: 1, assists: 0, goals: 1, defense: 0 },
+          Joe: { turns: 0, assists: 2, goals: 0, defense: 0 },
+        },
+        team2: {
+          Chris: { turns: 1, assists: 1, goals: 0, defense: 0 },
+          Krone: { turns: 1, assists: 0, goals: 1, defense: 0 },
+          Sakhin: { turns: 1, assists: 0, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 1,
+      },
+    ],
+    2: [
+      {
+        team1: {
+          Ted: { turns: 0, assists: 1, goals: 2, defense: 0 },
+          Isaac: { turns: 0, assists: 1, goals: 0, defense: 0 },
+          Lail: { turns: 1, assists: 1, goals: 1, defense: 0 },
+        },
+        team2: {
+          Dan: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Joe: { turns: 2, assists: 1, goals: 0, defense: 0 },
+          Tanner: { turns: 1, assists: 0, goals: 1, defense: 2 },
+        },
+        team1_score: 3,
+        team2_score: 1,
+      },
+      {
+        team1: {
+          Caleb: { turns: 1, assists: 0, goals: 2, defense: 0 },
+          Roman: { turns: 1, assists: 2, goals: 1, defense: 0 },
+          Linares: { turns: 0, assists: 1, goals: 0, defense: 0 },
+        },
+        team2: {
+          Charles: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Novinsky: { turns: 5, assists: 0, goals: 0, defense: 0 },
+          Sakhin: { turns: 0, assists: 0, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 0,
+      },
+    ],
+    3: [
+      {
+        team1: {
+          Mark: { turns: 0, assists: 1, goals: 2, defense: 0 },
+          Krone: { turns: 0, assists: 2, goals: 0, defense: 0 },
+          Joe: { turns: 1, assists: 0, goals: 1, defense: 0 },
+        },
+        team2: {
+          Ted: { turns: 0, assists: 2, goals: 0, defense: 0 },
+          Edwin: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          "Ryan-Ph": { turns: 1, assists: 0, goals: 2, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 2,
+      },
+      {
+        team1: {
+          Sakhin: { turns: 1, assists: 1, goals: 0, defense: 0 },
+          Dan: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Linares: { turns: 1, assists: 0, goals: 1, defense: 0 },
+        },
+        team2: {
+          Novinsky: { turns: 0, assists: 2, goals: 0, defense: 0 },
+          Caleb: { turns: 1, assists: 0, goals: 2, defense: 0 },
+          Chris: { turns: 2, assists: 1, goals: 1, defense: 0 },
+        },
+        team1_score: 1,
+        team2_score: 3,
+      },
+    ],
+    4: [
+      {
+        team1: {
+          Joe: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Lail: { turns: 1, assists: 0, goals: 1, defense: 0 },
+          Tanner: { turns: 0, assists: 1, goals: 0, defense: 0 },
+        },
+        team2: {
+          Charles: { turns: 0, assists: 0, goals: 2, defense: 2 },
+          Ted: { turns: 1, assists: 1, goals: 0, defense: 0 },
+          Isaac: { turns: 0, assists: 2, goals: 1, defense: 0 },
+        },
+        team1_score: 1,
+        team2_score: 3,
+      },
+      {
+        team1: {
+          Linares: { turns: 0, assists: 0, goals: 3, defense: 0 },
+          Krone: { turns: 0, assists: 1, goals: 0, defense: 0 },
+          "Ryan-Ph": { turns: 0, assists: 2, goals: 0, defense: 0 },
+        },
+        team2: {
+          Caleb: { turns: 1, assists: 0, goals: 1, defense: 0 },
+          Dan: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Sakhin: { turns: 0, assists: 1, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 1,
+      },
+    ],
+    5: [
+      {
+        team1: {
+          Ted: { turns: 0, assists: 3, goals: 0, defense: 0 },
+          Novinsky: { turns: 0, assists: 0, goals: 1, defense: 0 },
+          Roman: { turns: 0, assists: 0, goals: 2, defense: 0 },
+        },
+        team2: {
+          Mark: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Chris: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Lail: { turns: 3, assists: 0, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 0,
+      },
+      {
+        team1: {
+          "Ryan-Ph": { turns: 0, assists: 3, goals: 0, defense: 0 },
+          Krone: { turns: 0, assists: 0, goals: 2, defense: 0 },
+          Isaac: { turns: 1, assists: 0, goals: 1, defense: 0 },
+        },
+        team2: {
+          Sakhin: { turns: 0, assists: 0, goals: 1, defense: 0 },
+          Joe: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Edwin: { turns: 2, assists: 1, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 1,
+      },
+    ],
+  },
   "2025-3-6": {
     0: [
       {
@@ -451,7 +633,7 @@ mh_data = {
 };
 
 let select_tag = document.getElementById("selected-date");
-for (let date of Object.keys(mh_data).reverse()) {
+for (let date of Object.keys(mh_data).sort(sortDates).reverse()) {
   let opt = document.createElement("option");
   opt.value = date;
   opt.innerHTML = date;
@@ -487,6 +669,18 @@ let names = {
 createRows();
 
 document.getElementById("selected-date").addEventListener("change", createRows);
+
+function sortDates(date1, date2) {
+  let d1 = date1.split("-").map((el) => Number(el));
+  let d2 = date2.split("-").map((el) => Number(el));
+  if (d1[0] < d2[0]) return -1;
+  else if (d1[0] > d2[0]) return 1;
+  else if (d1[1] < d2[1]) return -1;
+  else if (d1[1] > d2[1]) return 1;
+  else if (d1[2] < d2[2]) return -1;
+  else if (d1[2] > d2[2]) return 1;
+  else return 0;
+}
 
 function createRows() {
   let date = document.getElementById("selected-date").value;

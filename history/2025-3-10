@@ -1,0 +1,518 @@
+{
+  "0": [
+    {
+      "team1": {
+        "Charles": {
+          "turns": 2,
+          "assists": 0,
+          "goals": 1,
+          "defense": 1
+        },
+        "Lail": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 0,
+          "defense": 0
+        },
+        "Roman": {
+          "turns": 3,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Novinsky": {
+          "turns": 2,
+          "assists": 3,
+          "goals": 0,
+          "defense": 0
+        },
+        "Linares": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 3,
+          "defense": 0
+        },
+        "Isaac": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        }
+      }
+    },
+    {
+      "team1": {
+        "Caleb": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        },
+        "Ted": {
+          "turns": 3,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Krone": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Joe": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Dan": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 3,
+          "defense": 0
+        },
+        "Ryan-Ph": {
+          "turns": 1,
+          "assists": 3,
+          "goals": 0,
+          "defense": 0
+        }
+      }
+    }
+  ],
+  "1": [
+    {
+      "team1": {
+        "Mark": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 2,
+          "defense": 0
+        },
+        "Ryan-Ph": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 1,
+          "defense": 0
+        },
+        "Lail": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Dan": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Ted": {
+          "turns": 1,
+          "assists": 1,
+          "goals": 1,
+          "defense": 1
+        },
+        "Edwin": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        }
+      }
+    },
+    {
+      "team1": {
+        "Caleb": {
+          "turns": 1,
+          "assists": 1,
+          "goals": 2,
+          "defense": 0
+        },
+        "Tanner": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        },
+        "Joe": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 0,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Chris": {
+          "turns": 1,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        },
+        "Krone": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        },
+        "Sakhin": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        }
+      }
+    }
+  ],
+  "2": [
+    {
+      "team1": {
+        "Ted": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 2,
+          "defense": 0
+        },
+        "Isaac": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        },
+        "Lail": {
+          "turns": 1,
+          "assists": 1,
+          "goals": 1,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Dan": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Joe": {
+          "turns": 2,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        },
+        "Tanner": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 2
+        }
+      }
+    },
+    {
+      "team1": {
+        "Caleb": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 2,
+          "defense": 0
+        },
+        "Roman": {
+          "turns": 1,
+          "assists": 2,
+          "goals": 1,
+          "defense": 0
+        },
+        "Linares": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Charles": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Novinsky": {
+          "turns": 5,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Sakhin": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        }
+      }
+    }
+  ],
+  "3": [
+    {
+      "team1": {
+        "Mark": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 2,
+          "defense": 0
+        },
+        "Krone": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 0,
+          "defense": 0
+        },
+        "Joe": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Ted": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 0,
+          "defense": 0
+        },
+        "Edwin": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Ryan-Ph": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 2,
+          "defense": 0
+        }
+      }
+    },
+    {
+      "team1": {
+        "Sakhin": {
+          "turns": 1,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        },
+        "Dan": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Linares": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Novinsky": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 0,
+          "defense": 0
+        },
+        "Caleb": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 2,
+          "defense": 0
+        },
+        "Chris": {
+          "turns": 2,
+          "assists": 1,
+          "goals": 1,
+          "defense": 0
+        }
+      }
+    }
+  ],
+  "4": [
+    {
+      "team1": {
+        "Joe": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Lail": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        },
+        "Tanner": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Charles": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 2,
+          "defense": 2
+        },
+        "Ted": {
+          "turns": 1,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        },
+        "Isaac": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 1,
+          "defense": 0
+        }
+      }
+    },
+    {
+      "team1": {
+        "Linares": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 3,
+          "defense": 0
+        },
+        "Krone": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        },
+        "Ryan-Ph": {
+          "turns": 0,
+          "assists": 2,
+          "goals": 0,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Caleb": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        },
+        "Dan": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Sakhin": {
+          "turns": 0,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        }
+      }
+    }
+  ],
+  "5": [
+    {
+      "team1": {
+        "Ted": {
+          "turns": 0,
+          "assists": 3,
+          "goals": 0,
+          "defense": 0
+        },
+        "Novinsky": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        },
+        "Roman": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 2,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Mark": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Chris": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Lail": {
+          "turns": 3,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        }
+      }
+    },
+    {
+      "team1": {
+        "Ryan-Ph": {
+          "turns": 0,
+          "assists": 3,
+          "goals": 0,
+          "defense": 0
+        },
+        "Krone": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 2,
+          "defense": 0
+        },
+        "Isaac": {
+          "turns": 1,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        }
+      },
+      "team2": {
+        "Sakhin": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 1,
+          "defense": 0
+        },
+        "Joe": {
+          "turns": 0,
+          "assists": 0,
+          "goals": 0,
+          "defense": 0
+        },
+        "Edwin": {
+          "turns": 2,
+          "assists": 1,
+          "goals": 0,
+          "defense": 0
+        }
+      }
+    }
+  ]
+}
