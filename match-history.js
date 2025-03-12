@@ -499,7 +499,7 @@ mh_data = {
           Linares: { turns: 1, assists: 2, goals: 1, defense: 0 },
         },
         team2: {
-          Joe: { turns: 2, assists: 2, goals: 0, defense: 0 },
+          Joe: { turns: 2, assists: 1, goals: 0, defense: 0 },
           Vincent: { turns: 0, assists: 1, goals: 1, defense: 0 },
           Jake: { turns: 3, assists: 0, goals: 1, defense: 0 },
         },
@@ -559,7 +559,7 @@ mh_data = {
           Isaac: { turns: 1, assists: 1, goals: 0, defense: 0 },
         },
         team2: {
-          Lail: { turns: 1, assists: 2, goals: 1, defense: 0 },
+          Lail: { turns: 1, assists: 1, goals: 1, defense: 0 },
           Vincent: { turns: 1, assists: 1, goals: 0, defense: 0 },
           Jake: { turns: 0, assists: 0, goals: 1, defense: 1 },
         },

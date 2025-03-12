@@ -5,10 +5,10 @@ Dan	3	0	5	3	5	0
 Edwin	7	2	1	1	4	0
 Isaac	4	6	5	7	0	0
 Jake	5	0	2	0	3	1
-Joe	6	6	2	4	7	0
+Joe	6	5	2	4	7	0
 Kevin	5	1	2	1	2	0
 Krone	4	6	9	5	4	0
-Lail	13	8	4	3	6	1
+Lail	13	7	4	3	6	1
 Linares	5	6	11	5	4	1
 Mark	0	2	4	2	1	0
 Novinsky	15	9	5	5	4	1
