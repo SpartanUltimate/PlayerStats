@@ -1010,6 +1010,130 @@ mh_data = {
       },
     ],
   },
+  "2025-3-20": {
+    0: [
+      {
+        team1: {
+          Mark: { turns: 1, assists: 0, goals: 0, defense: 1 },
+          Tanner: { turns: 1, assists: 0, goals: 1, defense: 0 },
+          Lail: { turns: 3, assists: 1, goals: 0, defense: 0 },
+        },
+        team2: {
+          Krone: { turns: 2, assists: 0, goals: 2, defense: 0 },
+          Joe: { turns: 2, assists: 2, goals: 0, defense: 1 },
+          Chris: { turns: 1, assists: 1, goals: 1, defense: 2 },
+        },
+        team1_score: 1,
+        team2_score: 3,
+      },
+      {
+        team1: {
+          Jake: { turns: 1, assists: 1, goals: 0, defense: 0 },
+          Caleb: { turns: 0, assists: 0, goals: 1, defense: 0 },
+          Dan: { turns: 1, assists: 0, goals: 0, defense: 0 },
+        },
+        team2: {
+          Linares: { turns: 0, assists: 1, goals: 2, defense: 0 },
+          Ted: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Sakhin: { turns: 1, assists: 2, goals: 1, defense: 0 },
+        },
+        team1_score: 1,
+        team2_score: 3,
+      },
+    ],
+    1: [
+      {
+        team1: {
+          Krone: { turns: 2, assists: 1, goals: 1, defense: 0 },
+          Mark: { turns: 0, assists: 0, goals: 1, defense: 0 },
+          "Ryan-Ph": { turns: 0, assists: 2, goals: 1, defense: 0 },
+        },
+        team2: {
+          Lail: { turns: 3, assists: 1, goals: 0, defense: 0 },
+          Joe: { turns: 0, assists: 1, goals: 1, defense: 0 },
+          Jake: { turns: 0, assists: 0, goals: 1, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 2,
+      },
+      {
+        team1: {
+          Caleb: { turns: 1, assists: 2, goals: 0, defense: 0 },
+          Sakhin: { turns: 0, assists: 1, goals: 0, defense: 0 },
+          Linares: { turns: 1, assists: 0, goals: 3, defense: 1 },
+        },
+        team2: {
+          Dan: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Ted: { turns: 0, assists: 0, goals: 1, defense: 1 },
+          Vincent: { turns: 2, assists: 1, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 1,
+      },
+    ],
+    2: [
+      {
+        team1: {
+          Dan: { turns: 0, assists: 0, goals: 1, defense: 1 },
+          Lail: { turns: 4, assists: 1, goals: 0, defense: 0 },
+          Krone: { turns: 2, assists: 1, goals: 1, defense: 1 },
+        },
+        team2: {
+          Linares: { turns: 1, assists: 0, goals: 2, defense: 0 },
+          Joe: { turns: 1, assists: 1, goals: 1, defense: 0 },
+          Jake: { turns: 3, assists: 2, goals: 0, defense: 0 },
+        },
+        team1_score: 2,
+        team2_score: 3,
+      },
+      {
+        team1: {
+          Ted: { turns: 0, assists: 1, goals: 1, defense: 0 },
+          Chris: { turns: 1, assists: 2, goals: 1, defense: 1 },
+          Sakhin: { turns: 0, assists: 0, goals: 1, defense: 0 },
+        },
+        team2: {
+          Caleb: { turns: 1, assists: 0, goals: 0, defense: 0 },
+          Vincent: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Tanner: { turns: 1, assists: 0, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 0,
+      },
+    ],
+    3: [
+      {
+        team1: {
+          Ted: { turns: 1, assists: 0, goals: 2, defense: 0 },
+          "Ryan-Ph": { turns: 0, assists: 2, goals: 0, defense: 0 },
+          Tanner: { turns: 0, assists: 1, goals: 1, defense: 0 },
+        },
+        team2: {
+          Vincent: { turns: 0, assists: 0, goals: 0, defense: 0 },
+          Caleb: { turns: 3, assists: 0, goals: 0, defense: 0 },
+          Chris: { turns: 1, assists: 0, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 0,
+      },
+    ],
+    4: [
+      {
+        team1: {
+          Caleb: { turns: 2, assists: 1, goals: 0, defense: 0 },
+          Ted: { turns: 0, assists: 2, goals: 0, defense: 0 },
+          Tanner: { turns: 1, assists: 0, goals: 3, defense: 0 },
+        },
+        team2: {
+          Vincent: { turns: 0, assists: 0, goals: 1, defense: 0 },
+          Sakhin: { turns: 1, assists: 0, goals: 0, defense: 0 },
+          Mark: { turns: 3, assists: 1, goals: 0, defense: 0 },
+        },
+        team1_score: 3,
+        team2_score: 1,
+      },
+    ],
+  },
   "2025-3-6": {
     0: [
       {
