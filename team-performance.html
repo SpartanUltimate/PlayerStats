@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spartan Rankings</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="page-title">SPARTAN RANKINGS</h1>
+    </div>
+    <div id="main-section">
+      <div id="table-container" style="width: 95%">
+        <ul class="navbar">
+          <li id="lb-nav">
+            <a id="lb-nav-a" href="index.html">Leaderboard</a>
+          </li>
+          <li id="spd-nav">
+            <a id="spd-nav-a" href="stats-per-day.html">Stats Per Day</a>
+          </li>
+          <li><a href="match-history.html">Match History</a></li>
+          <li id="ts-nav">
+            <a id="ts-nav-a" href="tournament-stats.html">Tournament Stats</a>
+          </li>
+          <li id="tp-nav">
+            <a id="tp-nav-a" href="#">Team Performance</a>
+          </li>
+        </ul>
+
+        <table id="tp-table">
+          <thead id="tp-header"></thead>
+          <tbody
+            id="tbody-start"
+            style="text-align: left; white-space: nowrap"
+          ></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="team-performance.js"></script>
+  </body>
+</html>

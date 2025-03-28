@@ -1,5 +1,6 @@
 import json
 import math
+import re
 from os import listdir
 
 names = {
@@ -167,3 +168,46 @@ mh_out.write(json.dumps(mh_data))
 mh_out.close()
 
 print("match history processing done!")
+
+
+################################
+#   statto player processing   #
+################################
+spfile = open('statto-player.csv', 'r')
+
+spdata = []
+for index, line in enumerate(spfile):
+  if index > 0:
+    line = line.split(' ', 1)[1].strip() # remove jersey numbers
+  pattern = r',(?=(?:[^"]*"[^"]*")*[^"]*$)' # pattern match commas outside double quotes 
+  data = re.split(pattern, line.strip())
+  for i,v in enumerate(data):
+    data[i] = v.replace('"', '').replace(',', '') # remove double quotes from every element
+  spdata.append(data)
+spfile.close()
+
+spout = open('statto-player-out', 'w')
+spout.write(json.dumps(spdata))
+spout.close()
+
+print("statto player processing done!")
+
+
+################################
+#    statto team  processing   #
+################################
+stfile = open('statto-team.csv', 'r')
+
+stdata = []
+for line in stfile:
+  data = line.strip().split(',')
+  data.pop(3) # remove time column
+  data.pop(2) # remove date column
+  stdata.append(data)
+stfile.close()
+
+stout = open('statto-team-out', 'w')
+stout.write(json.dumps(stdata))
+stout.close()
+
+print("statto team processing done!")
