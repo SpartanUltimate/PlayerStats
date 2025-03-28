@@ -129,6 +129,22 @@ body {
   background-color: rgb(80, 80, 80);
   font-size: 24px;
 }
+.scrollable-table {
+  overflow-x: auto;
+}
+/* .sticky-header {
+  border: 4px solid black;
+  outline: 1px solid black;
+  background-color: rgb(80, 80, 80);
+  position: sticky;
+  left: 0px;
+}
+.sticky-col {
+  outline: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: rgb(141, 141, 141);
+  position: sticky;
+  left: 0;
+} */
 th.ts-sortable:hover,
 th.tp-sortable:hover {
   color: white;
@@ -136,7 +152,7 @@ th.tp-sortable:hover {
 }
 #ts-table,
 #ts-header {
-  font-size: 14px;
+  font-size: 16px;
 }
 #tp-table,
 #tp-header {
