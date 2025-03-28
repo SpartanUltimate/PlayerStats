@@ -730,7 +730,11 @@ let ts_header = document.getElementById("ts-header");
 ts_header.innerHTML = "";
 let ts_content = "";
 for (let i = 0; i < ts_data[0].length; i++) {
-  ts_content += `<th class='ts-sortable' data-index=${i} style='border-right: solid black 1px'>${ts_data[0][i]}</th>`;
+  ts_content += `<th class='ts-sortable ${
+    i == 0 ? "sticky-header" : ""
+  }' data-index=${i} style='border-right: solid black 1px'>${
+    ts_data[0][i]
+  }</th>`;
 }
 ts_header.innerHTML = ts_content;
 
@@ -742,7 +746,7 @@ function createRows() {
     let row = document.createElement("tr");
     let row_content = "";
     for (let j = 0; j < ts_data[i].length; j++) {
-      row_content += `<td style='${
+      row_content += `<td ${j == 0 ? "class='sticky-col'" : ""} style='${
         j == 0 ? "white-space: nowrap; padding: 0px 5px" : "text-align:center"
       }; border-right: 1px solid black'>${ts_data[i][j]}</td>`;
     }

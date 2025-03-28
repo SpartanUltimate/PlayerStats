@@ -132,7 +132,15 @@ body {
 .scrollable-table {
   overflow-x: auto;
 }
-/* .sticky-header {
+#ts-table > tbody > tr:nth-of-type(even),
+#tp-table > tbody > tr:nth-of-type(even) {
+  background-color: rgb(151, 151, 151);
+}
+#ts-table > tbody > tr:nth-of-type(odd),
+#tp-table > tbody > tr:nth-of-type(odd) {
+  background-color: rgb(141, 141, 141);
+}
+.sticky-header {
   border: 4px solid black;
   outline: 1px solid black;
   background-color: rgb(80, 80, 80);
@@ -140,11 +148,11 @@ body {
   left: 0px;
 }
 .sticky-col {
-  outline: 1px solid rgba(0, 0, 0, 0.4);
-  background-color: rgb(141, 141, 141);
+  background-color: inherit;
   position: sticky;
   left: 0;
-} */
+}
+
 th.ts-sortable:hover,
 th.tp-sortable:hover {
   color: white;
@@ -170,9 +178,7 @@ th.tp-sortable:hover {
   border-right: solid 2px black;
   border-bottom: solid 2px black;
 }
-#pd-table > tbody > tr,
-#ts-table > tbody > tr,
-#tp-table > tbody > tr {
+#pd-table > tbody > tr {
   border-bottom: solid 1px black;
 }
 #pd-table > tbody > tr > td:nth-child(1) {
