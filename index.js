@@ -1,4 +1,4 @@
-let last_updated = "Apr 7, 2025 11:09pm"; // <----- UPDATE THIS DATE WHENEVER YOU UPDATE SCORES!!
+let last_updated = "Apr 10, 2025 10:56pm"; // <----- UPDATE THIS DATE WHENEVER YOU UPDATE SCORES!!
 document.getElementById("lu-date").innerHTML = last_updated;
 
 // paste array of objects containing data
