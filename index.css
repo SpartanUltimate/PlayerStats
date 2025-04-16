@@ -224,6 +224,11 @@ td[rowspan] {
   background-color: #b77979;
 }
 
+.Master {
+  background-color: #bd0000;
+  color: #000000;
+  font-weight: bold;
+}
 .Diamond {
   background-color: rgb(39, 65, 184);
   color: rgb(250, 250, 250);
